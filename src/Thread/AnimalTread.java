@@ -34,7 +34,7 @@ import javax.swing.JLabel;
     @Override
     public void run() {
         for(int i=x;i<this.limite;i+=10){
-            System.out.println(this.nombre+" avanza");
+            System.out.println(this.nombre+"avanza");
             this.animal.setLocation(i, y);
             if(this.nombre=="tortuga"){
                  try{
