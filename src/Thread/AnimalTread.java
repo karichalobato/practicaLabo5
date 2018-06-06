@@ -36,11 +36,20 @@ import javax.swing.JLabel;
         for(int i=x;i<this.limite;i+=10){
             System.out.println(this.nombre+" avanza");
             this.animal.setLocation(i, y);
-            try{
+            if(this.nombre=="tortuga"){
+                 try{
+                sleep(200);
+            }catch(InterruptedException e){
+                e.printStackTrace();
+            } 
+            }else{
+               try{
                 sleep(100);
             }catch(InterruptedException e){
                 e.printStackTrace();
+            } 
             }
+           
           
           
         }

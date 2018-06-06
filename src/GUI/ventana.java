@@ -50,7 +50,7 @@ public class ventana extends JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
                 AnimalTread canguro = new AnimalTread("canguro", labels[0].getX(), labels[0].getY(), 510, labels[0]);
-                AnimalTread tortuga = new AnimalTread("Tortuga", labels[1].getX(), labels[1].getY(), 510, labels[1]);
+                AnimalTread tortuga = new AnimalTread("tortuga", labels[1].getX(), labels[1].getY(), 510, labels[1]);
                 AnimalTread dragon = new AnimalTread("Dragon", labels[2].getX(), labels[2].getY(), 510, labels[2]);
                 canguro.start();
                 tortuga.start();
